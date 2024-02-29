@@ -8,13 +8,12 @@ public class ArgMethod {
     public static void main(String[] args) {
         String name = "Java";
         int age = 6;
-       // ArgMethod.hello("Java");
-        ArgMethod.hello("Java", 6);
-        ArgMethod.hello("Java", 6);
-        ArgMethod.hello("Java", 6);
-        ArgMethod.hello("Java", 6);
 
-       // ArgMethod.hello("Java");
-       // ArgMethod.hello(6, "Java");
+        ArgMethod.hello(name, age);
+        ArgMethod.hello(name, age);
+        ArgMethod.hello(name, age);
+
+        System.out.println("Hello," + name + ",age = " + age);
+
     }
 }
