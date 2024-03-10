@@ -7,12 +7,19 @@ public class Calculator {
 
     }
 
-    public static void main(String[] args) {
-        Calculator.plus(1, 2);
-        Calculator.plus(10, 11);
-        Calculator.plus(100, 500);
-        Calculator.plus(4, 2);
-        Calculator.plus(3, 5);
+    public static void minus(int first, int second) {
+        int res = first - second;
+        System.out.println(res);
 
     }
+
+    public static void main(String[] args) {
+        plus(1, 2);
+        plus(10, 11);
+        plus(100, 500);
+        minus(4, 2);
+        minus(3, 5);
+
+    }
+
 }
