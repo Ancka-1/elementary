@@ -19,7 +19,5 @@ public class Calculator {
         plus(100, 500);
         minus(4, 2);
         minus(3, 5);
-
     }
-
 }
