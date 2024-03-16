@@ -1,4 +1,4 @@
-package ru.Math;
+package ru.math;
 
 public class MathFunction {
     public static double sum(double first, double second) {

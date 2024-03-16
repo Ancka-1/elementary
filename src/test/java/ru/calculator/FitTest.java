@@ -1,4 +1,5 @@
 package ru.calculator;
+
 import org.junit.jupiter.api.Test;
 
 
@@ -28,6 +29,7 @@ public class FitTest {
         double out = Fit.womanWeight(in);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
+
     @Test
     void whenMan200Then98() {
         short in = 200;
